@@ -1,10 +1,10 @@
-name: CI Angular app through GitHub Actions
+name: CI Angular app through GitHub Actions [hotfixes branch]
 
 on:
   push:
-    branches: ["master"]
+    branches: ["hotfixes"]
   pull_request:
-    branches: ["master"]
+    branches: ["hotfixes"]
 
 jobs:
   build:
