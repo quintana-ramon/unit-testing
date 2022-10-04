@@ -1,10 +1,10 @@
-name: CI Angular app through GitHub Actions ['develop branch']
+name: CI Angular app through GitHub Actions ['release branch']
 
 on:
   push:
-    branches: ["develop"]
+    branches: ["release"]
   pull_request:
-    branches: ["develop"]
+    branches: ["release"]
 
 jobs:
   build:
